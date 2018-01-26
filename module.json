@@ -1,0 +1,7 @@
+﻿{
+  "entry": "index.asar",
+  "loader": "electron",
+  "version": "1.0.0",
+  "author": "Snowflake",
+  "name": "GraphiQL hydrogen Theme"
+}

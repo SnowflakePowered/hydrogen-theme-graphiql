@@ -1,0 +1,7 @@
+{
+  "entry": "index.html",
+  "icon": "icon.png",
+  "description": "GraphiQL For Snowflake.",
+  "version": "0.0.1",
+  "name": "GraphiQL"
+}

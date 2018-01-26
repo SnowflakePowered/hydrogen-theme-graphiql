@@ -1,0 +1,26 @@
+.window-chrome {
+    color: white;
+    flex-direction: row-reverse;
+    line-height: 1.5rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 60px;
+    grid-template-areas: "drag icon";
+    align-items: center;
+}
+
+.drag {
+    -webkit-app-region: drag; 
+    grid-area: drag;
+    height: 100%;
+}
+.window-chrome-icon {
+    grid-area: icon;
+}
+.window-chrome-icon > .fa {
+    margin: 0 2px;
+}
+
+.window-chrome-icon > .fa:hover {
+    color: rgb(200 ,200 ,200);
+}

@@ -1,0 +1,25 @@
+{
+  "name": "hydrogenfe-theme-graphiql",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "graphiql": "^0.11.11",
+    "graphql": "git://github.com/graphql/graphql-js.git#npm",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-fa": "^5.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.0",
+    "asar": "0.14.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "pack-snowflake": "react-scripts build && asar pack ./build index.asar"
+  }
+}
